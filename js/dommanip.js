@@ -1,6 +1,5 @@
-function myFunction(item, index) {
-  document.getElementById("demo").innerHTML += index + ":" + item + "<br>";
-}
+const demoTag = document.getElementById("demo");
+console.log(demoTag)
 
-let fruits = ["apple", "orange", "cherry", "nødder"];
-fruits.forEach(myFunction);
+demoTag.innerHTML = "hello kurt"
+
